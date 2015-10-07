@@ -8,5 +8,6 @@
         <page name='Strings and Characters'/>
         <page name='Arrays'/>
         <page name='Sets'/>
+        <page name='Dictionaries'/>
     </pages>
 </playground>
