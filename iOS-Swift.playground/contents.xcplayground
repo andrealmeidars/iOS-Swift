@@ -4,5 +4,6 @@
         <page name='Welcome'/>
         <page name='Constants and Variables'/>
         <page name='Operators'/>
+        <page name='Optionals'/>
     </pages>
 </playground>
