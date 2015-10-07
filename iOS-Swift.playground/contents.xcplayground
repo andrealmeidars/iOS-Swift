@@ -3,11 +3,12 @@
     <pages>
         <page name='Welcome'/>
         <page name='Constants and Variables'/>
-        <page name='Operators'/>
+        <page name='Operators and Comparison'/>
         <page name='Optionals'/>
         <page name='Strings and Characters'/>
         <page name='Arrays'/>
         <page name='Sets'/>
         <page name='Dictionaries'/>
+        <page name='Loops'/>
     </pages>
 </playground>
