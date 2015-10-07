@@ -4,32 +4,30 @@
 
 import Foundation
 
-//: For-In
-
-// Closed Range
+//: For-In - Closed Range
 for index in 1...5 {
     print("\(index)")
 }
 
-// Half-Open Range
+//: For-In - Half-Open Range
 for index in 1..<5 {
     print("\(index)")
 }
 
-// Don't need to declare index
+//: For-In - Don't need to declare index
 var a = 0
 for _ in 1...5 {
     a++
 }
 print(a)
 
-// Iterating Over an Array
+//: For-In - Iterating Over an Array
 let names = ["Anna", "Alex", "Brian", "Jack"]
 for name in names {
     print("Hello, \(name)!")
 }
 
-// Iterating Over a Dictionary
+//: For-In - Iterating Over a Dictionary
 let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
 for (animalName, legCount) in numberOfLegs {
     print("\(animalName)s have \(legCount) legs")
@@ -57,9 +55,7 @@ repeat {
 } while sum < 10
 print(sum)
 
-//: Control Transfer Statements
-
-// Continue - go to the next index
+//: Continue - go to the next index
 var count = 0
 for index in 0...50 {
     if index >= 3 {
@@ -69,7 +65,7 @@ for index in 0...50 {
 }
 print(count)
 
-// Break - stop the loop or switch
+//: Break - stop the loop or switch
 count = 0
 for index in 0...50 {
     if index == 3 {

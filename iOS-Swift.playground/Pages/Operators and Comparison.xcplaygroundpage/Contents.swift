@@ -41,9 +41,7 @@ a = 5
 a *= b
 a /= b
 
-//: Comparison
-
-// Binary
+//: Binary Comparison
 if a == b {
     print("equal")
 } else if a > b {
@@ -54,7 +52,7 @@ if a == b {
     print("something is wrong!")
 }
 
-// Logical NOT
+//: Logical NOT
 if a != 10 {
     print("a is not 10")
 }
@@ -63,17 +61,17 @@ if !check {
     print("testing bool")
 }
 
-// Logical AND
+//: Logical AND
 if a >= 5 && b <= 10 {
     print("a >= 5 AND b <= 10")
 }
 
-// Logical OR
+//: Logical OR
 if a == 5 || b == 10 {
     print("a == 5 OR b == 10")
 }
 
-// Compound
+//: Compound
 if (a != 10 || b == 5) && !check {
     print("Complex comparison")
 }
@@ -88,7 +86,6 @@ a = (isTrue ? 10 : 20)
 //: Switch
 //: "break" is not really needed, only if you want to break in the middle of the block
 
-// Standard
 var letter = "a"
 switch letter {
 case "b":
@@ -103,7 +100,7 @@ default:
     print("not expected")
 }
 
-// Interval Matching
+//: Switch With Interval Matching
 var number = 42
 switch number {
 case 0:
@@ -120,7 +117,7 @@ default:
     print("other values")
 }
 
-// Tuples
+//: Switch With Tuples
 let somePoint = (1, 1)
 switch somePoint {
 case (0, 0):
@@ -135,7 +132,7 @@ default:
     print("(\(somePoint.0), \(somePoint.1)) is outside of the box")
 }
 
-// Value Bindings
+//: Switch Value Bindings
 let anotherPoint = (2, 0)
 switch anotherPoint {
 case (let x, 0):
@@ -146,7 +143,7 @@ case let (x, y): // default
     print("somewhere else at (\(x), \(y))")
 }
 
-// Where
+//: Switch Where
 let yetAnotherPoint = (1, -1)
 switch yetAnotherPoint {
 case let (x, y) where x == y:
@@ -157,7 +154,7 @@ case let (x, y):
     print("(\(x), \(y)) is just some arbitrary point")
 }
 
-// Fallthrough
+//: Switch Fallthrough
 a = 1
 switch a {
 case 1:
@@ -174,9 +171,9 @@ default:
 //: Checking API Availability
 
 if #available(iOS 9, OSX 10.10, *) {
-    // Use iOS 9 APIs on iOS, and use OS X v10.10 APIs on OS X
+    print("Use iOS 9 APIs on iOS, and use OS X v10.10 APIs on OS X")
 } else {
-    // Fall back to earlier iOS and OS X APIs
+    print("Fall back to earlier iOS and OS X APIs")
 }
 
 //: [Next](@next)

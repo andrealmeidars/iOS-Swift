@@ -10,5 +10,6 @@
         <page name='Sets'/>
         <page name='Dictionaries'/>
         <page name='Loops'/>
+        <page name='Functions'/>
     </pages>
 </playground>
