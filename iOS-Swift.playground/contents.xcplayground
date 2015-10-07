@@ -7,5 +7,6 @@
         <page name='Optionals'/>
         <page name='Strings and Characters'/>
         <page name='Arrays'/>
+        <page name='Sets'/>
     </pages>
 </playground>

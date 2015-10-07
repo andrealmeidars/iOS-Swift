@@ -70,4 +70,25 @@ for (index, value) in shoppingList.enumerate() {
     print("\(index): \(value)")
 }
 
+//: Sorting Arrays
+
+var sortShoppingList = shoppingList.sort()
+sortShoppingList = shoppingList.sort({ (a: String, b: String) -> Bool in
+    return a > b
+})
+print(sortShoppingList)
+
+// Sorting Tuples/Objects
+
+typealias MyTuple = (objectId: Int, name: String)
+var customList: [MyTuple] = []
+customList.append((objectId: 1, name: "First"))
+customList.append((objectId: 2, name: "Second"))
+customList.append((objectId: 3, name: "Third"))
+customList.append((objectId: 4, name: "Fourth"))
+customList = customList.sort({ (a: MyTuple, b: MyTuple) -> Bool in
+    return a.name < b.name
+})
+print(customList)
+
 //: [Next](@next)
