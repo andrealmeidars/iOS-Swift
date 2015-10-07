@@ -1,45 +1,32 @@
-//: ## Variables and Constants
+//: ## Constants and Variables
 //: ----
 //: [Previous](@previous)
 
 import Foundation
 
-//: # Constants
-//: Constants cannot have their values changed
+//: Constants
 
 let constant = "My first constant!"
 
-//: # Variables
-//: Variables can have their values changed
+//: Variables
 
 var variable = "My first variable!"
+var r = 250.0, g = 100.0, b = 210.0
 
-//: Multiple Constants or Variables on a single line
-
-let r = 250.0, g = 100.0, b = 210.0
-
-//: # Type Annotations
-//: ----
-//: Using a type annotation to be clear about the kind of values of the contant or variable
-
+//: Type Annotations
 var hello: String
 hello = "Hello!"
 
-//: # Names
-//: ----
-//: You can use special characters for your contants or variables' names but not only numbers!
+//: Emoji Names
 //: - Emoji shortcut: control + command + space
-
 let 😎 = ":)"
 
-//: # Debug and Documentation
-//: ----
-//: Printing to an output
+//: Printing
 
 print(😎)
 print("Using a string with a constant or variable: \(hello)")
 
-//: Comments? Sure, it's easy!
+//: Comments
 
 // One line comment
 
@@ -49,12 +36,6 @@ Lines
 Comment
 */
 
-//: Missing the semicolons(;)? Yes, Swift does not require it!
-
-var 👍 = "Like it!"
-
-//: # Constant and Vairables Basic Types
-//: ----
 //: Integer
 
 let intConstant1 = 10
