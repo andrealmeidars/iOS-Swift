@@ -6,5 +6,6 @@
         <page name='Operators'/>
         <page name='Optionals'/>
         <page name='Strings and Characters'/>
+        <page name='Arrays'/>
     </pages>
 </playground>
