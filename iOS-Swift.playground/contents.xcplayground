@@ -12,5 +12,6 @@
         <page name='Loops'/>
         <page name='Functions'/>
         <page name='Closures'/>
+        <page name='Enumerations'/>
     </pages>
 </playground>
