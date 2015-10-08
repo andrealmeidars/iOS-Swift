@@ -11,5 +11,6 @@
         <page name='Dictionaries'/>
         <page name='Loops'/>
         <page name='Functions'/>
+        <page name='Closures'/>
     </pages>
 </playground>
