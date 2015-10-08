@@ -18,5 +18,6 @@
         <page name='Error Handling'/>
         <page name='Type Casting'/>
         <page name='Nested Types'/>
+        <page name='Extensions'/>
     </pages>
 </playground>
