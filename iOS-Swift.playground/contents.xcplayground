@@ -16,5 +16,6 @@
         <page name='Structures'/>
         <page name='Classes'/>
         <page name='Error Handling'/>
+        <page name='Type Casting'/>
     </pages>
 </playground>
