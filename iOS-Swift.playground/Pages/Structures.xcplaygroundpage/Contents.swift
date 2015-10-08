@@ -12,6 +12,9 @@ struct Resolution {
     func pixels() -> Int {
         return width * height
     }
+    mutating func addWidth(delta: Int) {
+        width += delta
+    }
 }
 
 //: Structure Instances
@@ -33,5 +36,7 @@ print(hd.width, cinema.width)
 //: Methods
 
 print(cinema.pixels())
+cinema.addWidth(100)
+print(cinema.width)
 
 //: [Next](@next)
