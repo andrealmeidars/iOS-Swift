@@ -115,19 +115,10 @@ extension Int {
     }
 }
 
-func printIntegerKinds(numbers: [Int]) {
-    for number in numbers {
-        switch number.kind {
-        case .Negative:
-            print("- ", terminator: "")
-        case .Zero:
-            print("0 ", terminator: "")
-        case .Positive:
-            print("+ ", terminator: "")
-        }
-    }
-}
+let pos = 3
+print(pos.kind)
 
-printIntegerKinds([3, 19, -27, 0, -6, 0, 7])
+let neg = -5
+print(neg.kind)
 
 //: [Next](@next)

@@ -274,6 +274,30 @@ print(match[0])
 print(match[1])
 print(match[2])
 
+// Returning String
+
+class Person {
+    var name: String = ""
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class Group {
+    var list = [Person]()
+    subscript(var index: Int) -> String {
+        return list[index].name
+    }
+}
+
+var group = Group()
+group.list.append(Person(name: "Ricardo"))
+group.list.append(Person(name: "Fabio"))
+group.list.append(Person(name: "Mauricio"))
+print(group[0])
+print(group[1])
+print(group[2])
+
 //: Inheritance
 
 class Vehicle {
