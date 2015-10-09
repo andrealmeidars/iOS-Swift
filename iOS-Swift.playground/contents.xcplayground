@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='raw'>
+<playground version='6.0' target-platform='ios' requires-full-environment='true' display-mode='rendered'>
     <pages>
         <page name='Welcome'/>
         <page name='Constants and Variables'/>
@@ -23,5 +23,6 @@
         <page name='Generics'/>
         <page name='Access Control'/>
         <page name='Advanced Operators'/>
+        <page name='Notification Center'/>
     </pages>
 </playground>
