@@ -24,5 +24,6 @@
         <page name='Access Control'/>
         <page name='Advanced Operators'/>
         <page name='Notification Center'/>
+        <page name='REST Request'/>
     </pages>
 </playground>
